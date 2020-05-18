@@ -1,0 +1,126 @@
+@import 'https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Merriweather:ital@1&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet';
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather';
+}
+
+h1{
+  margin: 0 auto;
+  padding-top: 48px;
+  font-family: 'Sacramento';
+  font-size: 5.5em;
+  margin-top: 2.6rem;
+  color: #66BFBF;
+}
+
+h2{
+  font-family:'Montserrat', sans-ferif;
+  font-size: 2.5rem;
+  margin-top: 0;
+  color: #66BFBF;
+  font-weight: normal;
+}
+.programer {
+  line-height: 2;
+}
+span{
+  text-decoration: underline;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 2rem;
+ 
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 180px;
+}
+.img-paul {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.profile {
+  margin: 100px auto 100px;
+  width: 50%;
+}
+hr{
+  width: 5%;
+  border-top: 5px dotted gray;
+  margin-bottom: 100px;
+}
+
+.skill-row1{
+  display: inline-flex;
+  align-content: center;
+  width: 50%;
+  margin: 50px auto 0px;
+  text-align: left;
+}
+
+.skill-row2{
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-content: center;
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+}
+
+.lorem1, .lorem2 {
+  width: 25%;
+}
+
+
+.left {
+  line-height: 2;
+}
+
+.vertical1 {
+  padding-left: 30px;
+}
+.vertical2 {
+  padding-right: 30px;
+}
+
+button {
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 15%;
+  background-color: #66bfbf;
+  color: #eee;
+}
+
+.contact-me{
+  margin-bottom: 50px;
+}
+.bottom-container{
+  padding-top: 30px;
+  height: 8rem;
+  background-color: #66bfbf;
+}
+
+.bottom-container > a{
+  display: inline-block;
+  width: 100px;
+  text-decoration: none;
+  color: #11999e;
+}
+
+.bottom-container > p {
+  color: #eaf6f6;
+}
